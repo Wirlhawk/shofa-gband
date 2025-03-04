@@ -15,7 +15,7 @@ import {
 } from "lucide-react";
 import Layout from "@/component/layout";
 
-export default function PlaylistPage({ songList }: { songList: [] }) {
+export default function PlaylistPage({ songList }: { songList: any[] | null }) {
   //   const [songs, setSongs] = useState([
   //     {
   //       title: "The Chase",
